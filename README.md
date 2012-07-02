@@ -14,14 +14,10 @@ should also differentiate us as these SMS tickets are mostly acquired JIT. Addit
 based offering of mobile payment services and saving commonly used SMS tickets should be implemented for
 ultimate usability.
 
-In general there are two general thought processes:
-1. Buying via one's mobile phone.
-2. Buying for a phone from a computer at distance.
+In general there are two general thought processes; buying via one's mobile phone or buying for a phone from a 
+computer at distance.
 
-Currently following tickets are to be considered:
-1. NMBS
-2. De Lijn
-3. Parking
+Currently NMBS, De Lijn and Parking tickets are taken in to consideration.
 
 
 
