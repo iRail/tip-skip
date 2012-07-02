@@ -17,7 +17,7 @@ ultimate usability.
 In general there are two general thought processes; buying via one's mobile phone or buying for a phone from a 
 computer at distance.
 
-Currently NMBS, De Lijn and Parking tickets are taken in to consideration.
+Currently NMBS, De Lijn and parking tickets are taken in to consideration.
 
 
 
