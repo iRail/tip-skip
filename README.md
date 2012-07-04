@@ -17,9 +17,21 @@ computer at distance.
 ### Buying from one's mobile phone
 When people buy SMS tickets they do this mostly because they lacked the time to buy a 'real' ticket in advance
 or just don't have the time anymore to buy one. Maybe the 'ticketeer' is short in cash but he decides to use the 
-money on his phone instead.
+money on his phone instead, again probably just in time before he needs the ticket.
+
+Therefore the main priority is speed and usability. Mostly no extra data is necessary to acquire such a ticket.
+A one-click does-it-all-approach should be envisioned.
 
 ### Buying for a phone from a computer
+The purpose is somewhat different when buying an SMS-ticket from your computer which is to be sent to your phone.
+This will mostly be used when planning your trip beforehand. The 'ticketeer' would be able to avoid the hassle of 
+buying a 'real' ticket.
+
+Field of study
+--------------
+
+
+
 
 
 
