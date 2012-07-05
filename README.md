@@ -8,8 +8,8 @@ should be unveiled.
 
 The main goal is to provide an platform where mobile payment services are offered. The platform should 
 easen the process of acquiring such SMS tickets. Examples of such tickets are those provided by 
-[De Lijn](http://www.delijn.be/en/verkooppunten/sms_ticketing_copy.htm) or 
-[4411 parking tickets](http://www.4411.be/en/).
+[De Lijn](http://www.delijn.be/en/verkooppunten/sms_ticketing_copy.htm), [NMBS](http://mobile.b-rail.be/) 
+or [4411 parking tickets](http://www.4411.be/en/).
 
 In general there are two thought processes; buying via one's mobile phone or buying for a phone from a 
 computer at distance.
@@ -32,7 +32,7 @@ Field of study
 Decent research is needed in search of possible solutions to our two solutions. First off let's start exporing the
 different SMS tickets to be considered (at this moment).
 
-### De Lijn
+### [De Lijn](http://www.delijn.be/en/verkooppunten/sms_ticketing_copy.htm)
 Advantages of De Lijn SMS tickets:
 * An SMS ticket is cheaper than a ticket that you purchase from the driver.
 * You don't have payment problems (exact change no longer required).
@@ -43,16 +43,14 @@ To purchase a De Lijn SMS ticket you SMS an order code before boarding the vehic
 of 60 minutes that is ‘DL’ (€ 1.45); for an SMS ticket of 120 minutes ‘DL120’ (€ 2.25). After a few seconds you will receive a confirmation 
 SMS and this counts as a ticket.
 
-### 4411
+### [4411 parking tickets](http://www.4411.be/en/)
 Advantages of 4411 SMS tickets:
 * No messing about which P&D machines you'll use.
 * You no longer have to estimate up-front how long you will be parking for.
 * With SMS-parking, you only pay for the time you actually parked.
 * No more hurrying and running when your parking time runs out.
 
-
-
-### NMBS
+### [NMBS](http://mobile.b-rail.be/)
 NMBS claims their SMS tickets should have following advantages:
 * Ease the process of acquiring a SMS ticket.
 * Be able to buy a ticket always and everywhere.
