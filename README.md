@@ -8,8 +8,9 @@ should be unveiled.
 
 The main goal is to provide an platform where mobile payment services are offered. The platform should 
 easen the process of acquiring such SMS tickets. Examples of such tickets are those provided by 
-[De Lijn](http://www.delijn.be/en/verkooppunten/sms_ticketing_copy.htm), [NMBS](http://mobile.b-rail.be/) 
-or [4411 parking tickets](http://www.4411.be/en/).
+[De Lijn](http://www.delijn.be/en/verkooppunten/sms_ticketing_copy.htm), 
+[NMBS](http://www.b-rail.be/nat/N/practical/pointsofsale/mobile/index.php) or 
+[4411 parking tickets](http://www.4411.be/en/).
 
 In general there are two thought processes; buying via one's mobile phone or buying for a phone from a 
 computer at distance.
@@ -33,24 +34,38 @@ Decent research is needed in search of possible solutions to our two solutions. 
 different SMS tickets to be considered (at this moment).
 
 ### [De Lijn](http://www.delijn.be/en/verkooppunten/sms_ticketing_copy.htm)
+These SMS tickets are valid on all buses and trams of De Lijn, except on De Lijn's night route in Antwerp.
+
 Advantages of De Lijn SMS tickets:
 * An SMS ticket is cheaper than a ticket that you purchase from the driver.
 * You don't have payment problems (exact change no longer required).
 * Boarding goes smoother.
 * In the end buses and trams are more punctual.
 
-To purchase a De Lijn SMS ticket you SMS an order code before boarding the vehicle to the phone number 4884. For an SMS ticket 
-of 60 minutes that is ‘DL’ (€ 1.45); for an SMS ticket of 120 minutes ‘DL120’ (€ 2.25). After a few seconds you will receive a confirmation 
-SMS and this counts as a ticket.
+To purchase a De Lijn SMS ticket you SMS an order code before boarding the vehicle to the phone number 4884. 
+For an SMS ticket of 60 minutes that is ‘DL’ (€ 1.45); for an SMS ticket of 120 minutes ‘DL120’ (€ 2.25). After a 
+few seconds you will receive a confirmation SMS and this counts as a ticket.
 
 ### [4411 parking tickets](http://www.4411.be/en/)
+4411 offers services in fifteen cities and communities with over 90,000 available parking spaces.
+
 Advantages of 4411 SMS tickets:
 * No messing about which P&D machines you'll use.
 * You no longer have to estimate up-front how long you will be parking for.
 * With SMS-parking, you only pay for the time you actually parked.
 * No more hurrying and running when your parking time runs out.
 
-### [NMBS](http://mobile.b-rail.be/)
+After the first use, all further parking sessions will be invoiced via your mobile operator or via a separate parking 
+invoice you will receive on a monthly basis. These parking invoices can be paid via internet, pc banking, credit card, 
+PingPing or a simple money transfer. For the moment only Proximus customers can pay their parking fees via their mobile 
+invoice or prepaid card. We expect Mobistar and Base to follow shortly. Until then Mobistar and Base customers can 
+register on this web site. They will then receive a monthly invoice from Mobile-for.
+
+Unfortunatly in Ghent 4411 isn't active at the moment. Their used to be an SMS service '3453' but there doesn't seem to be any
+trace of it anymore. Further investigation here would be nice and necessary, not only for Ghent but also for other cities who
+offer their own SMS parking ticket service.
+
+### [NMBS](http://www.b-rail.be/nat/N/practical/pointsofsale/mobile/index.php)
 NMBS claims their SMS tickets should have following advantages:
 * Ease the process of acquiring a SMS ticket.
 * Be able to buy a ticket always and everywhere.
