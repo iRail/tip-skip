@@ -7,7 +7,7 @@ The proof of concept must show to which extent this project can be realised and 
 should be unveiled.
 
 The main goal is to provide an platform where mobile payment services are offered. The platform should 
-easen the process of acquiring such SMS tickets. Examples of such tickets are those provided by 
+ease the process of acquiring such SMS tickets. Examples of such tickets are those provided by 
 [De Lijn](http://www.delijn.be/en/verkooppunten/sms_ticketing_copy.htm), 
 [NMBS](http://www.b-rail.be/nat/N/practical/pointsofsale/mobile/index.php) or 
 [4411 parking tickets](http://www.4411.be/en/).
@@ -30,7 +30,7 @@ buying a 'real' ticket.
 
 Field of study
 --------------
-Decent research is needed in search of possible solutions to our two solutions. First off let's start exporing the
+Decent research is needed in search of possible solutions to our two approaches. First off let's start exploring the
 different SMS tickets to be considered (at this moment).
 
 ### [De Lijn](http://www.delijn.be/en/verkooppunten/sms_ticketing_copy.htm)
@@ -64,7 +64,7 @@ invoice you will receive on a monthly basis. For the moment only Proximus custom
 invoice or prepaid card. We expect Mobistar and Base to follow shortly. Until then Mobistar and Base customers can 
 register on this web site. They will then receive a monthly invoice from Mobile-for.
 
-Unfortunatly in Ghent 4411 isn't active at the moment. Their used to be an SMS service '3453' but there doesn't seem to be any
+Unfortunately in Ghent 4411 isn't active at the moment. Their used to be an SMS service '3453' but there doesn't seem to be any
 trace of it anymore. Further investigation here would be nice and necessary, not only for Ghent but also for other cities who
 offer their own SMS parking ticket service.
 
