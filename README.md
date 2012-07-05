@@ -39,6 +39,10 @@ Advantages of De Lijn SMS tickets:
 * Boarding goes smoother.
 * In the end buses and trams are more punctual.
 
+To purchase a De Lijn SMS ticket you SMS an order code before boarding the vehicle to the phone number 4884. For an SMS ticket 
+of 60 minutes that is ‘DL’ (€ 1.45); for an SMS ticket of 120 minutes ‘DL120’ (€ 2.25). After a few seconds you will receive a confirmation 
+SMS and this counts as a ticket.
+
 ### 4411
 Advantages of 4411 SMS tickets:
 * No messing about which P&D machines you'll use.
@@ -46,21 +50,25 @@ Advantages of 4411 SMS tickets:
 * With SMS-parking, you only pay for the time you actually parked.
 * No more hurrying and running when your parking time runs out.
 
+
+
 ### NMBS
 NMBS claims their SMS tickets should have following advantages:
 * Ease the process of acquiring a SMS ticket.
 * Be able to buy a ticket always and everywhere.
 * This by offering a simple follow-up.
 
-After completing the process for the NMBS SMS tickets some of these supposed advantages
-aren't that apparent. The process requires too much user information that in the end
-shouldn't be necessary. Furthermore the tickets aren't really SMS tickets because customers
-have to pay for their ticket (which is then send to their phone) with either VISA or Mastercard.
+After completing the process for the NMBS SMS tickets some of these supposed advantages aren't that apparent. The 
+process requires too much user information that in the end shouldn't be necessary. Furthermore the tickets aren't 
+really SMS tickets because customers have to pay for their ticket (which is then send to their phone) with either 
+VISA or Mastercard.
 
-When looking at this from the BfP-point of view these tickets are barely usable. It's too big
-of a hassle to buy these and u need card reader at hand to pay with ur VISA or Mastercard.
+When looking at this from the BfP-point of view these tickets are barely usable. It's too big of a hassle to buy 
+these and u need card reader at hand to pay with ur VISA or Mastercard.
 
-Although probably not usable for BfP, these could be used for BfC. The advantages lay
+Although probably not usable for BfP, these could be used for BfC. The risk of loosing or forgetting the ticket is 
+lowered as u have your ticket on your phone. Route planning software (e.g. [Scotty](http://www.scotty.be)) could 
+integrate these kind of tickets to offer even more added value.
 
 Wireframe
 ---------
