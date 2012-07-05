@@ -29,7 +29,22 @@ buying a 'real' ticket.
 
 Field of study
 --------------
-Decent research is needed in search of possible solutions to our two solutions.
+Decent research is needed in search of possible solutions to our two solutions. First off let's start exporing the
+different SMS tickets to be considered (at this moment).
+
+### De Lijn
+Let's start by summing up the advantages for SMS tickets by De Lijn. First, an SMS ticket is cheaper than a ticket that 
+you purchase from the driver. Also no payment problems (exact change no longer required) occur resulting in a smoother 
+boarding. In the end this can enhance the punctuality of the buses and trams.
+
+### 4411
+Advantages of buying SMS tickets for parking:
+* No messing about which P&D machines or small change.
+* You no longer have to estimate up-front how long you will be parking for.
+* With SMS-parking, you only pay for the time you actually parked.
+* No more hurrying and running when your parking time runs out.
+
+### NMBS
 
 Wireframe
 ---------
