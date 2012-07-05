@@ -33,18 +33,34 @@ Decent research is needed in search of possible solutions to our two solutions. 
 different SMS tickets to be considered (at this moment).
 
 ### De Lijn
-Let's start by summing up the advantages for SMS tickets by De Lijn. First, an SMS ticket is cheaper than a ticket that 
-you purchase from the driver. Also no payment problems (exact change no longer required) occur resulting in a smoother 
-boarding. In the end this can enhance the punctuality of the buses and trams.
+Advantages of De Lijn SMS tickets:
+* An SMS ticket is cheaper than a ticket that you purchase from the driver.
+* You don't have payment problems (exact change no longer required).
+* Boarding goes smoother.
+* In the end buses and trams are more punctual.
 
 ### 4411
-Advantages of buying SMS tickets for parking:
-* No messing about which P&D machines or small change.
+Advantages of 4411 SMS tickets:
+* No messing about which P&D machines you'll use.
 * You no longer have to estimate up-front how long you will be parking for.
 * With SMS-parking, you only pay for the time you actually parked.
 * No more hurrying and running when your parking time runs out.
 
 ### NMBS
+NMBS claims their SMS tickets should have following advantages:
+* Ease the process of acquiring a SMS ticket.
+* Be able to buy a ticket always and everywhere.
+* This by offering a simple follow-up.
+
+After completing the process for the NMBS SMS tickets some of these supposed advantages
+aren't that apparent. The process requires too much user information that in the end
+shouldn't be necessary. Furthermore the tickets aren't really SMS tickets because customers
+have to pay for their ticket (which is then send to their phone) with either VISA or Mastercard.
+
+When looking at this from the BfP-point of view these tickets are barely usable. It's too big
+of a hassle to buy these and u need card reader at hand to pay with ur VISA or Mastercard.
+
+Although probably not usable for BfP, these could be used for BfC. The advantages lay
 
 Wireframe
 ---------
