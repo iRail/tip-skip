@@ -55,9 +55,16 @@ Advantages of 4411 SMS tickets:
 * With SMS-parking, you only pay for the time you actually parked.
 * No more hurrying and running when your parking time runs out.
 
+4411 makes it possible to pay via phone for on street parking spots and for parking garages. 
+1. On street 
+On street SMS-parking is very easy. All you need to do is send a short text message to 4411 to start and stop 
+the parking session.
+2. Parking garage
+When entering the parking you take a parking ticket, as usual.  When leaving,  you no longer have to queue up to pay. 
+Simply send a text message with the parking code, a space and your ticket number to 4411.
+
 After the first use, all further parking sessions will be invoiced via your mobile operator or via a separate parking 
-invoice you will receive on a monthly basis. These parking invoices can be paid via internet, pc banking, credit card, 
-PingPing or a simple money transfer. For the moment only Proximus customers can pay their parking fees via their mobile 
+invoice you will receive on a monthly basis. For the moment only Proximus customers can pay their parking fees via their mobile 
 invoice or prepaid card. We expect Mobistar and Base to follow shortly. Until then Mobistar and Base customers can 
 register on this web site. They will then receive a monthly invoice from Mobile-for.
 
