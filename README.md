@@ -86,14 +86,14 @@ Although probably not usable for BfP, these could be used for BfC. The risk of l
 lowered as u have your ticket on your phone. Route planning software (e.g. [Scotty](http://www.scotty.be)) could 
 integrate these kind of tickets to offer even more added value.
 
-Wireframe
----------
+Wireframe BfP
+-------------
 Too have a visual goal through this project it's recommended to create a 
 [(website) wireframe](http://en.wikipedia.org/wiki/Website_wireframe).
 
-### BfP
+### main
 
-### BfC
+
 
 
 
