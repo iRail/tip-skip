@@ -33,8 +33,9 @@ Field of study
 Decent research is needed in search of possible solutions to our two approaches. First off let's start exploring the
 different SMS tickets to be considered (at this moment).
 
-### [De Lijn](http://www.delijn.be/en/verkooppunten/sms_ticketing_copy.htm)
-These SMS tickets are valid on all buses and trams of De Lijn, except on De Lijn's night route in Antwerp.
+### De Lijn
+These SMS tickets are valid on all buses and trams of [De Lijn](http://www.delijn.be/en/verkooppunten/sms_ticketing_copy.htm), 
+except on De Lijn's night route in Antwerp.
 
 Advantages of De Lijn SMS tickets:
 * An SMS ticket is cheaper than a ticket that you purchase from the driver.
@@ -46,8 +47,8 @@ To purchase a De Lijn SMS ticket you SMS an order code before boarding the vehic
 For an SMS ticket of 60 minutes that is ‘DL’ (€ 1.45); for an SMS ticket of 120 minutes ‘DL120’ (€ 2.25). After a 
 few seconds you will receive a confirmation SMS and this counts as a ticket.
 
-### [4411 parking tickets](http://www.4411.be/en/)
-4411 offers services in fifteen cities and communities with over 90,000 available parking spaces.
+### 4411 parking tickets
+[4411](http://www.4411.be/en/) offers services in fifteen cities and communities with over 90,000 available parking spaces.
 
 Advantages of 4411 SMS tickets:
 * No messing about which P&D machines you'll use.
@@ -55,9 +56,10 @@ Advantages of 4411 SMS tickets:
 * With SMS-parking, you only pay for the time you actually parked.
 * No more hurrying and running when your parking time runs out.
 
-4411 makes it possible to pay via phone for on street parking spots and for parking garages. On street SMS-parking is very easy. All you need to do is send a short text message to 4411 to start and stop 
-the parking session. For a parking garage you just enter the parking and take a parking ticket, as usual. When leaving, you 
-no longer have to queue up to pay. Simply send a text message with the parking code, a space and your ticket number to 4411.
+4411 makes it possible to pay via phone for on street parking spots and for parking garages. On street SMS-parking is very easy. 
+All you need to do is send a short text message to 4411 to start and stop the parking session. For a parking garage 
+you just enter the parking and take a parking ticket, as usual. When leaving, you no longer have to queue up to pay. 
+Simply send a text message with the parking code, a space and your ticket number to 4411.
 
 After the first use, all further parking sessions will be invoiced via your mobile operator or via a separate parking 
 invoice you will receive on a monthly basis. For the moment only Proximus customers can pay their parking fees via their mobile 
@@ -68,8 +70,9 @@ Unfortunately in Ghent 4411 isn't active at the moment. Their used to be an SMS 
 trace of it anymore. Further investigation here would be nice and necessary, not only for Ghent but also for other cities who
 offer their own SMS parking ticket service.
 
-### [NMBS](http://www.b-rail.be/nat/N/practical/pointsofsale/mobile/index.php)
-NMBS claims their SMS tickets should have following advantages:
+### NMBS
+[NMBS](http://www.b-rail.be/nat/N/practical/pointsofsale/mobile/index.php) claims their SMS tickets should have following 
+advantages:
 * Ease the process of acquiring a SMS ticket.
 * Be able to buy a ticket always and everywhere.
 * This by offering a simple follow-up.
@@ -92,15 +95,3 @@ Too have a visual goal through this project it's recommended to create a
 [(website) wireframe](http://en.wikipedia.org/wiki/Website_wireframe).
 
 ### main
-
-
-
-
-
-
-
-
-
-
-
-
