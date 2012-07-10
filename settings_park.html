@@ -1,14 +1,21 @@
-<div class="span4">
-    <form class="well">
-        <h2>4411</h2>
-        <label>Label name</label>
-        <input type="text" class="span3" placeholder="Type something…">
-        <span class="help-block">Example block-level help text here.</span>
-        <label class="checkbox">
-            <input type="checkbox">
-            Check me out </label>
-        <button type="submit" class="btn">
-            Submit
-        </button>
-    </form>
+<div class="span4 well" id="park">
+    <h2>4411</h2>
+    <div class="control-group">
+        <label for="licensePlate">License plate</label>
+        <input type="text" class="span4" id="licensePlate" onkeypress="enableSaving()">
+    </div>
+    <button type="submit" class="btn" id="settings-park" onclick="save()">
+        Save
+    </button>
 </div>
+<script>
+    function save() {
+        localStorage.setItem('licensePlate', $('input#licensePlate')[0].value);
+        $('button#settings-park').addClass('disabled');
+        return false;
+    }
+    
+    function enableSaving(){
+        $('button#settings-park').removeClass('disabled');
+    }
+</script>

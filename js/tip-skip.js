@@ -38,4 +38,36 @@ var ticketCategories = {
         text : 'We maken het je graag makkelijk. Daarom kun je voortaan je treinbiljet overal en altijd aankopen! Eenvoudig, koop je treinbiljet met je mobiele telefoon en reis met je SMS.',
         settingsPage : 'settings_nmbs.html'
     },
-}; 
+    /*lieven : {
+     name : 'Lieven',
+     buy : {
+     buyPage : 'buy_nmbs.html'
+     },
+     text : 'We maken het je graag makkelijk. Daarom kun je voortaan je treinbiljet overal en altijd aankopen! Eenvoudig, koop je treinbiljet met je mobiele telefoon en reis met je SMS.',
+     settingsPage : 'settings_nmbs.html'
+     },
+     dimitri : {
+     name : 'Dimitri',
+     buy : {
+     buyPage : 'buy_nmbs.html'
+     },
+     text : 'We maken het je graag makkelijk. Daarom kun je voortaan je treinbiljet overal en altijd aankopen! Eenvoudig, koop je treinbiljet met je mobiele telefoon en reis met je SMS.',
+     settingsPage : 'settings_nmbs.html'
+     },
+     miet : {
+     name : 'Miet',
+     buy : {
+     buyPage : 'buy_nmbs.html'
+     },
+     text : 'We maken het je graag makkelijk. Daarom kun je voortaan je treinbiljet overal en altijd aankopen! Eenvoudig, koop je treinbiljet met je mobiele telefoon en reis met je SMS.',
+     settingsPage : 'settings_nmbs.html'
+     },
+     sam : {
+     name : 'Sam',
+     buy : {
+     buyPage : 'buy_nmbs.html'
+     },
+     text : 'We maken het je graag makkelijk. Daarom kun je voortaan je treinbiljet overal en altijd aankopen! Eenvoudig, koop je treinbiljet met je mobiele telefoon en reis met je SMS.',
+     settingsPage : 'settings_nmbs.html'
+     },*/
+};
