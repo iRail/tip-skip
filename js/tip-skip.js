@@ -5,11 +5,11 @@ var ticketCategories = {
             buyPage : 'buy_dl.html',
             categories : {
                 oneHourTicket : {
-                    text : 'De Lijn - 60',
+                    text : 'De Lijn - 60 min',
                     validTime : 3600,
                 },
                 twoHourTicket : {
-                    text : 'De Lijn - 120',
+                    text : 'De Lijn - 120 min',
                     validTime : 7200
                 }
             }
@@ -17,10 +17,15 @@ var ticketCategories = {
         text : 'De Lijn makes it easy for you: you can pay for your journey with your mobile phone. You do this by purchasing an SMS ticket: a valid ticket for your journey with the bus or tram throughout Flanders.',
         settings : ''
     },
-    4411 : {
+    park : {
         name : '4411',
         buy : {
-            buyPage : 'buy_4411.html'
+            buyPage : 'buy_4411.html',
+            categories : {
+                standardTicket : {
+                    text : '4411 parking ticket'
+                }
+            }
         },
         text : 'To make it even easier to use SMS parking, Mobile-for has developed a few applications for smartphone users.',
         settings : ''
