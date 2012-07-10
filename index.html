@@ -114,7 +114,7 @@
             $('document').ready(function() {
                 $.each(ticketCategories, function(categorieID, categorie) {
                     $('<div>').attr({
-                        class : 'span4',
+                        class : 'span4 well',
                         id : 'tickets-' + categorieID
                     }).appendTo('div#row-fluid-1').html('<h2>' + categorie.name + '<a class="btn btn-primary pull-right" href="' + categorie.buy.buyPage + '">Buy</a></h2><p>' + categorie.text + '</p>');
 
