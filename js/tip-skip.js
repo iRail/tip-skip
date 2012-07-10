@@ -6,9 +6,10 @@ var ticketCategories = {
             categories : {
                 oneHourTicket : {
                     text : 'De Lijn - 60',
-                    validTime : 3600,                },
+                    validTime : 3600,
+                },
                 twoHourTicket : {
-                    text: 'De Lijn - 120',
+                    text : 'De Lijn - 120',
                     validTime : 7200
                 }
             }
@@ -33,4 +34,3 @@ var ticketCategories = {
         settings : ''
     },
 };
-
