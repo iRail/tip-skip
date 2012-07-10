@@ -28,7 +28,6 @@ var ticketCategories = {
             }
         },
         text : 'To make it even easier to use SMS parking, Mobile-for has developed a few applications for smartphone users.',
-        settings : ''
     },
     nmbs : {
         name : 'NMBS',
