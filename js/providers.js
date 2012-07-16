@@ -14,4 +14,4 @@ var providers = {
         active : true,
         title : "Parking"
     }
-}; 
+};
