@@ -164,7 +164,7 @@ $('document').ready(function() {
 
         //<a href="index.html" class="ui-link-inherit">
         var a = $('<a>').attr({
-            href : "index.html",
+            href : "receiver.html#buy-" + provider.id,
             class : "ui-link-inherit"
         }).text('Buy ticket');
         a.appendTo(div2);
@@ -180,10 +180,38 @@ $('document').ready(function() {
         li2.appendTo('ul#tickets');
         /*
          * <li data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="div" data-icon="arrow-r" data-iconpos="right" data-theme="c" class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li ui-btn-up-c">
+         * 
          * <div class="ui-btn-inner ui-li">
          * <div class="ui-btn-text">
          * <a href="index.html" class="ui-link-inherit">Acura</a></div>
+         * 
          * <span class="ui-icon ui-icon-arrow-r ui-icon-shadow">&nbsp;</span></div></li>
          */
     });
+
+    /*
+     * buy-dl specific
+     */
+    $('a#buy-dl-60').click(dl60);
+
+    $('a#buy-dl-120').click(dl120);
+
+    /*
+     * compose sms
+     */
+    function dl60() {
+        var message = {};
+        message.body = "DL";
+        message.recipient = "4884";
+    }
+
+    function dl120() {
+        var message = {};
+        message.body = "DL120";
+        message.recipient = "4884";
+    }
+    
+    /*
+     * buy-park specific
+     */
 });

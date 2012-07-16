@@ -7,7 +7,7 @@
         Remove this if you use the .htaccess -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-        <title>tip&skip - receiver</title>
+        <title>tip&amp;skip - receiver</title>
         <meta name="description" content="" />
         <meta name="author" content="sjimi" />
 
@@ -24,12 +24,47 @@
         <div data-role="page" id="main">
 
             <div data-role="header">
-                <h1>tip&skip - receiver</h1>
+                <h1>tip&amp;skip</h1>
             </div>
 
-            <div data-role="content" id="content" >
+            <div data-role="content" id="content-main" >
                 <ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b" id="tickets"></ul>
             </div>
+        </div>
+
+        <div data-role="page" id="buy-dl">
+
+            <div data-role="header">
+                <h1>tip&amp;skip</h1>
+            </div>
+
+            <div data-role="content" id="content-buy-dl">
+                <div data-role="controlgroup">
+                    <a data-role="button" id="buy-dl-60">60'</a>
+                    <a data-role="button" id="buy-dl-120">120'</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div data-role="page" id="buy-nmbs">
+
+            <div data-role="header">
+                <h1>tip&amp;skip</h1>
+            </div>
+
+            <div data-role="content" id="content-buy-nmbs"></div>
+
+        </div>
+
+        <div data-role="page" id="buy-park">
+
+            <div data-role="header">
+                <h1>tip&amp;skip</h1>
+            </div>
+
+            <div data-role="content" id="content-buy-park"></div>
+
         </div>
 
         <div pub-key="pub-f8217b74-e31d-4da3-b114-b6f61ae3fb93" sub-key="sub-dcf79c1c-cb5f-11e1-8787-3524986571b8" ssl="off" origin="pubsub.pubnub.com" id="pubnub"></div>

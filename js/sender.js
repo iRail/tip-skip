@@ -2,7 +2,7 @@ $('document').ready(function() {
     $.each(providers, function(id, provider) {
         //<a data-role="button" id="buy" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="c" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-up-c">
         var a = $('<a>').attr({
-            id : "id-" + provider.providerID,
+            id : "id-" + provider.id,
             'provider-id' : id,
             'data-role' : "button",
             'data-corners' : "true",
@@ -11,6 +11,7 @@ $('document').ready(function() {
             'data-wrapperels' : "span",
             'data-theme' : "c",
             class : "ui-btn ui-shadow ui-btn-corner-all ui-btn-up-c",
+            href : 'sender.html#buy-' + provider.id
         });
 
         //<span class="ui-btn-inner ui-btn-corner-all">
@@ -35,20 +36,34 @@ $('document').ready(function() {
          */
     });
 
-    var id = 0;
-    $('a').click(function(event) {
-        var ticket = {
-            channel : "tip&skip",
-            message : {
-                ticketID : id++,
-                active : true,
-                date : new Date(),
-                text : "Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.",
-                publishKey : null,
-                subscribeKey : null,
-                provider : providers[event.srcElement.getAttribute('provider-id')]
-            }
-        }
-        PUBNUB.publish(ticket)
-    });
+    /*
+     * buy-dl specific
+     */
+    $('a#buy-dl-60').click(function() {
+        var message;
+        message.body = "DL";
+        message.recipient = "4884";
+    })
+
+    $('a#buy-dl-120').click(function() {
+        var message;
+        message.body = "DL120";
+        message.recipient = "4884";
+    })
+    /*var id = 0;
+     $('a').click(function(event) {
+     var ticket = {
+     channel : "tip&skip",
+     message : {
+     ticketID : id++,
+     active : true,
+     date : new Date(),
+     text : "Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.",
+     publishKey : null,
+     subscribeKey : null,
+     provider : providers[event.srcElement.getAttribute('provider-id')]
+     }
+     }
+     PUBNUB.publish(ticket)
+     });*/
 });
