@@ -107,11 +107,26 @@ $('document').ready(function () {
     */
     $('a#buy-dl-60').click(function () {
         var ticket = createTicket('dl', '60');
+        $.mobile.changePage('receiver.html#main');
         displayTicket(ticket);
     });
 
     $('a#buy-dl-120').click(function () {
         var ticket = createTicket('dl', '120');
+        $.mobile.changePage('receiver.html#main');
+        displayTicket(ticket);
+    });
+
+    /*
+    * buy-nmbs specific
+    */
+    $('a#nmbs').click(function () {
+        var details = {
+            departure: $('input#departure').val(),
+            destination: $('input#destination').val()
+        };
+        var ticket = createTicket('nmbs', details);
+        $.mobile.changePage('receiver.html#main');
         displayTicket(ticket);
     });
 });
@@ -133,36 +148,57 @@ function dl120() {
     window.plugins.composer.send(message);
 }
 
+function nmbs(details) {
+    var message = {};
+    message.body = "NMBS";
+    message.recipient = "0478316644";
+    //window.plugins.composer.send(message);
+}
+
 /*
 * create a ticket
 */
 var id = 0;
 function createTicket(provider, details) {
     var ticket;
-    if (details == '60') {
+    if (provider == 'dl') {
+        if (details == '60') {
+            ticket = {
+                ticketID: id++,
+                active: true,
+                date: new Date(),
+                text: "De Lijn '60",
+                publishKey: null,
+                subscribeKey: null,
+                provider: providers[provider],
+                details: '60'
+            };
+            dl60();
+        } else if (details == '120') {
+            ticket = {
+                ticketID: id++,
+                active: true,
+                date: new Date(),
+                text: "De Lijn '120",
+                publishKey: null,
+                subscribeKey: null,
+                provider: providers[provider],
+                details: '120'
+            };
+            dl120();
+        }
+    } else if (provider == 'nmbs') {
         ticket = {
             ticketID: id++,
             active: true,
             date: new Date(),
-            text: "De Lijn '60",
+            text: "Ticket from " + details.departure + " to " + details.destination + ".",
             publishKey: null,
             subscribeKey: null,
             provider: providers[provider],
-            details: '60'
+            details: details
         };
-        dl60();
-    } else if(details == '120') {
-         ticket = {
-            ticketID: id++,
-            active: true,
-            date: new Date(),
-            text: "De Lijn '120",
-            publishKey: null,
-            subscribeKey: null,
-            provider: providers[provider],
-            details: '120'
-        };
-        dl120();
+        nmbs(details);
     }
     return ticket;
 }
@@ -171,18 +207,6 @@ function createTicket(provider, details) {
 * display the ticket
 */
 function displayTicket(ticket) {
-    /*<li data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="div" data-icon="arrow-r" data-iconpos="right" data-theme="d" class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li ui-btn-up-d">
-    <div class="ui-btn-inner ui-li">
-    <div class="ui-btn-text">
-    <a href="index.html" class="ui-link-inherit">
-    <p class="ui-li-aside ui-li-desc"><strong>6:24</strong>PM</p>
-
-    <h3 class="ui-li-heading">Stephen Weber</h3>
-    <p class="ui-li-desc"><strong>You've been invited to a meeting at Filament Group in Boston, MA</strong></p>
-    <p class="ui-li-desc">Hey Stephen, if you're available at 10am tomorrow, we've got a meeting with the jQuery team.</p>
-
-    </a></div><span class="ui-icon ui-icon-arrow-r ui-icon-shadow">&nbsp;</span></div></li>*/
-
     /*
     * create list-item
     */
@@ -212,7 +236,7 @@ function displayTicket(ticket) {
 
     //<a href="index.html" class="ui-link-inherit">
     var a = $('<a>').attr({
-        href: "index.html",
+        //href: "receiver.html#main",
         class: "ui-link-inherit"
     });
 
@@ -260,4 +284,25 @@ function displayTicket(ticket) {
     var count = $('span#count-' + ticket.provider.id).text();
     count++;
     $('span#count-' + ticket.provider.id).text(count);
+
+    /*<li data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="div" data-icon="arrow-r" data-iconpos="right" data-theme="d" class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li ui-btn-up-d">
+    <div class="ui-btn-inner ui-li">
+    <div class="ui-btn-text">
+    <a href="index.html" class="ui-link-inherit">
+    <p class="ui-li-aside ui-li-desc"><strong>6:24</strong>PM</p>
+
+    <h3 class="ui-li-heading">Stephen Weber</h3>
+    <p class="ui-li-desc"><strong>You've been invited to a meeting at Filament Group in Boston, MA</strong></p>
+    <p class="ui-li-desc">Hey Stephen, if you're available at 10am tomorrow, we've got a meeting with the jQuery team.</p>
+
+    </a></div><span class="ui-icon ui-icon-arrow-r ui-icon-shadow">&nbsp;</span></div></li>*/
 }
+
+Storage.prototype.setObject = function (key, value) {
+    this.setItem(key, JSON.stringify(value));
+};
+
+Storage.prototype.getObject = function (key) {
+    var value = this.getItem(key);
+    return value && JSON.parse(value);
+};

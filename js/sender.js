@@ -1,5 +1,5 @@
-$('document').ready(function() {
-    $.each(providers, function(id, provider) {
+$('document').ready(function () {
+    $.each(providers, function (id, provider) {
         //<a data-role="button" id="buy" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="c" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-up-c">
         var a = $('<a>').attr({
             id: "id-" + provider.id,
@@ -30,16 +30,16 @@ $('document').ready(function() {
         a.appendTo('div#content');
 
         /*
-         * <a data-role="button" id="buy" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="c" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-up-c">
-         * <span class="ui-btn-inner ui-btn-corner-all">
-         * <span class="ui-btn-text">But ticket for phone!</span></span></a>
-         */
+        * <a data-role="button" id="buy" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="c" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-up-c">
+        * <span class="ui-btn-inner ui-btn-corner-all">
+        * <span class="ui-btn-text">But ticket for phone!</span></span></a>
+        */
     });
 
     /*
-     * buy-dl specific
-     */
-    $('a#buy-dl-60').click(function(event) {
+    * buy-dl specific
+    */
+    $('a#buy-dl-60').click(function (event) {
         var ticket = {
             channel: "tip&skip",
             message: {
@@ -51,7 +51,7 @@ $('document').ready(function() {
         };
         PUBNUB.publish(ticket);
     });
-    $('a#buy-dl-120').click(function(event) {
+    $('a#buy-dl-120').click(function (event) {
         var ticket = {
             channel: "tip&skip",
             message: {
