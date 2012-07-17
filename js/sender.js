@@ -45,7 +45,7 @@ $('document').ready(function() {
             message: {
                 publishKey: null,
                 subscribeKey: null,
-                provider: providers[event.srcElement.parentElement.getAttribute('provider-id')],
+                provider: event.srcElement.parentElement.getAttribute('provider-id'),
                 details: '60'
             }
         };
@@ -57,25 +57,10 @@ $('document').ready(function() {
             message: {
                 publishKey: null,
                 subscribeKey: null,
-                provider: providers[event.srcElement.parentElement.getAttribute('provider-id')],
+                provider: event.srcElement.parentElement.getAttribute('provider-id'),
                 details: '120'
             }
         };
         PUBNUB.publish(ticket);
-    }); /*var id = 0;
-     $('a').click(function(event) {
-     var ticket = {
-     channel : "tip&skip",
-     message : {
-     ticketID : id++,
-     active : true,
-     date : new Date(),
-     text : "Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.",
-     publishKey : null,
-     subscribeKey : null,
-     provider : providers[event.srcElement.getAttribute('provider-id')]
-     }
-     }
-     PUBNUB.publish(ticket)
-     });*/
+    });
 });

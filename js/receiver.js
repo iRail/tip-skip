@@ -106,11 +106,13 @@ $('document').ready(function () {
     * buy-dl specific
     */
     $('a#buy-dl-60').click(function () {
-        createTicket('dl', '60');
+        var ticket = createTicket('dl', '60');
+        displayTicket(ticket);
     });
 
     $('a#buy-dl-120').click(function () {
-        createTicket('dl', '120');
+        var ticket = createTicket('dl', '120');
+        displayTicket(ticket);
     });
 });
 
@@ -145,7 +147,7 @@ function createTicket(provider, details) {
             text: "De Lijn '60",
             publishKey: null,
             subscribeKey: null,
-            provider: provider,
+            provider: providers[provider],
             details: '60'
         };
         dl60();
@@ -157,7 +159,7 @@ function createTicket(provider, details) {
             text: "De Lijn '120",
             publishKey: null,
             subscribeKey: null,
-            provider: provider,
+            provider: providers[provider],
             details: '120'
         };
         dl120();
