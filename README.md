@@ -120,6 +120,11 @@ The BfC approach therefore should push a 'ticket' to the phone. The tip-skip app
 on the phone) would then receive this push 'ticket'. The SMS function would be triggered (after confirmation by the user).
 and the customer would have his ticket at hand!
 
-I found a very good and widely spread technology to provide this push functionality: [PubNub](wwww.pubnub.com).
+I found a very good and wide spread technology to provide this push functionality: [PubNub](www.pubnub.com). Ideally
+to use in this proof of concept. Whether you are pushing to a mobile device, web app, desktop, or server, PubNub is 
+a one stop shop. They provide easy to use API's for JavaScript, iOS, Android, Python, Java, Ruby, Flash, Silverlight, etc.
+Furthermore it is cloud-hosted for a redundant architecture providing high-availability and reliability.
 
+PubNub is based on the standard HTTP 1.1 protocol. PubNub uses a BOSH model with JSON rather than XML. BOSH is a long polling 
+alternative to TCP, used when TCP is difficult or impossible (e.g. in a web browser).
 
