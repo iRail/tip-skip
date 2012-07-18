@@ -111,6 +111,7 @@ was the way to go (formely known as Phonegap).
 
 To create a harmonised application I needed to switch from Twitter Bootstrap to [jQuery Mobile](http://jquerymobile.com/) 
 (for CSS and page navigation) which works alot better with Cordova.
+
 ###BfC
 Next up buying from you're computer for your phone. The SMS should always be sent from you're phone. Reasons for this:
 this prevents the need of an SMS gateway of your own, the SMS is always charged to the customer's bill and you use the
@@ -127,4 +128,11 @@ Furthermore it is cloud-hosted for a redundant architecture providing high-avail
 
 PubNub is based on the standard HTTP 1.1 protocol. PubNub uses a BOSH model with JSON rather than XML. BOSH is a long polling 
 alternative to TCP, used when TCP is difficult or impossible (e.g. in a web browser).
+
+### BfP + BfC
+Putting it all together I made a working application for the De Lijn SMS tickets where it is possible to push a ticket from your
+computer to your phone or buy it directly via your phone.
+
+Future work
+-----------
 
