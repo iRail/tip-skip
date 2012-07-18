@@ -95,10 +95,11 @@ Too have a visual goal through this project it's recommended to create a
 [(website) wireframe](http://en.wikipedia.org/wiki/Website_wireframe).
 
 You can check my initial wireframe [here](http://tipskip.irail.be). I want to stress again that this is just a
-prototype of the BfC point of view. Technologies used are HTML5 with special focus on [responsive design]
-(http://responsinator.com/?url=tip-skip.irail.be).
+prototypish wireframe of the BfC point of view. Technologies used are HTML5 with special focus on [responsive design]
+(http://responsinator.com/?url=tip-skip.irail.be). [Twitter Bootstrap](http://twitter.github.com/bootstrap/) was used 
+to enable this responsive design.
 
-I used this prototype to get a visual image of what could be. Especially the flow of the application. Furthermore
+I used this wireframe to get a visual image of what could be. Especially the flow of the application. Furthermore
 it allows me to test some features like [leaflet](http://leaflet.cloudmade.com/) for maps.
 
 Prototype
@@ -106,8 +107,13 @@ Prototype
 ###BfP
 I then started consolidating the wireframe. As native features would be needed (SMS-composing, -sending, -receiving)
 and I still wanted to use HTML5 due to it's ease it was clear that [Cordova](http://phonegap.com/2012/03/19/phonegap-cordova-and-what%E2%80%99s-in-a-name/)
-was the way to go. (Formely known as Phonegap).
+was the way to go (formely known as Phonegap).
 
-To create a harmonised application I needed to switch from Twitter Bootstrap to jQuery Mobile (for CSS and page navigation) which works alot better
-with Cordova.
+To create a harmonised application I needed to switch from Twitter Bootstrap to [jQuery Mobile](http://jquerymobile.com/) 
+(for CSS and page navigation) which works alot better with Cordova.
+###BfC
+Next up buying from you're computer for your phone. The SMS should always be sent from you're phone. Reasons for this:
+this prevents the need of an SMS gateway of your own, the SMS is always charged to the customer's bill and you use the
+existing infrastructure off the SMS tickets.
+
 
