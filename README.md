@@ -94,4 +94,10 @@ Wireframe BfP
 Too have a visual goal through this project it's recommended to create a 
 [(website) wireframe](http://en.wikipedia.org/wiki/Website_wireframe).
 
-### main
+You can check my initial wireframe [here](http://tipskip.irail.be). I want to stress again that this is just a
+prototype of the BfC point of view. Technologies used are HTML5 with special focus on [responsive design]
+(http://responsinator.com/?url=tip-skip.irail.be).
+
+I used this prototype to get a visual image of what could be. Especially the flow of the application. Furthermore
+it allows me to test some features like [leaflet](http://leaflet.cloudmade.com/) for maps.
+
