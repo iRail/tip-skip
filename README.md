@@ -136,3 +136,16 @@ computer to your phone or buy it directly via your phone.
 Future work
 -----------
 
+Restrictions
+------------
+
+Conclusions
+-----------
+###BfP
+An application for you're phone on top of SMS tickets significantly increases the value added. During the research and work
+this was stressed several times. Especially because at the moment there already exists an application for iPhone which does
+this quite well, [SMS Park](http://www.mobile-canguru.be/index.php). It combines SMS parking (with alot of side services)
+tickets with De Lijn SMS tickets.
+
+
+
