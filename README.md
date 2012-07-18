@@ -146,24 +146,21 @@ Let's jump into conclusions, keeping possibilities for Go-Mobile in mind.
 #General
 n application for you're phone on top of SMS tickets significantly increases the value added. During the research and work
 this was stressed several times. There are already sprouting several applications whom try to do this. Some succeed very well
-like [SMS Park](http://www.mobile-canguru.be/index.php), which combines parking and De Lijn SMS tickets.
+like [SMS Park](http://www.mobile-canguru.be/index.php), which combines parking and De Lijn SMS tickets. There are several 
+advantages:
+* You don't forget numbers or what needs to be inside the message.
+* It provides an easy way to populate the ticket with the necessary data.
+* A history is available of you're payed tickets (highly valuable for tracking you're travelling expenses).
 
 #NMBS
-This is a very interesting opportunity for Go-Mobile
+This is a very interesting opportunity for Go-Mobile. At the moment the NMBS SMS tickets (which are to be paid for by Mastercard
+or Visa) aren't useful at all. But suppose they would change to real SMS tickets (just sending an SMS and paying with your phone
+bill).
 
 #Parking
-(Although maybe less important for Go-Mobile?) SMS tickets 
-#BfP
- Especially because at the moment there already exists an application for iPhone which does
-this quite well, [SMS Park](http://www.mobile-canguru.be/index.php). It combines SMS parking (with alot of side services)
-tickets with De Lijn SMS tickets. In general such an application eases the process big time. 
-* You don't forget numbers or what needs to be inside the message.
-* It provides an easy way to populate the ticket with the necessary data. 
+(Although maybe less important for Go-Mobile?) SMS tickets ... TODO
 * You're location could be used to make it even more enjoyable (like checking which parking meter you are at automatically).
 * Usage of timers.
-* History of you're payed tickets (highly valuable for tracking you're travelling expenses).
-
-#BfC
 
 
 
