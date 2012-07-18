@@ -142,10 +142,14 @@ Restrictions
 Conclusions
 -----------
 ###BfP
-An application for you're phone on top of SMS tickets significantly increases the value added. During the research and work
+* An application for you're phone on top of SMS tickets significantly increases the value added. During the research and work
 this was stressed several times. Especially because at the moment there already exists an application for iPhone which does
 this quite well, [SMS Park](http://www.mobile-canguru.be/index.php). It combines SMS parking (with alot of side services)
-tickets with De Lijn SMS tickets.
+tickets with De Lijn SMS tickets. In general such an application eases the process big time. You don't forget numbers or
+what needs to be inside the message and it provides an easy way to populate the ticket with the necessary data. You're location
+could be used to make it even more enjoyable (like checking which parking meter you are at automatically).
+
+
 
 
 
