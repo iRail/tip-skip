@@ -101,3 +101,13 @@ prototype of the BfC point of view. Technologies used are HTML5 with special foc
 I used this prototype to get a visual image of what could be. Especially the flow of the application. Furthermore
 it allows me to test some features like [leaflet](http://leaflet.cloudmade.com/) for maps.
 
+Prototype
+---------
+###BfP
+I then started consolidating the wireframe. As native features would be needed (SMS-composing, -sending, -receiving)
+and I still wanted to use HTML5 due to it's ease it was clear that [Cordova](http://phonegap.com/2012/03/19/phonegap-cordova-and-what%E2%80%99s-in-a-name/)
+was the way to go. (Formely known as Phonegap).
+
+To create a harmonised application I needed to switch from Twitter Bootstrap to jQuery Mobile (for CSS and page navigation) which works alot better
+with Cordova.
+
