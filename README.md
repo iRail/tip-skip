@@ -143,10 +143,18 @@ Conclusions
 -----------
 Let's jump into conclusions, keeping possibilities for Go-Mobile in mind.
 
+#General
+n application for you're phone on top of SMS tickets significantly increases the value added. During the research and work
+this was stressed several times. There are already sprouting several applications whom try to do this. Some succeed very well
+like [SMS Park](http://www.mobile-canguru.be/index.php), which combines parking and De Lijn SMS tickets.
 
+#NMBS
+This is a very interesting opportunity for Go-Mobile
+
+#Parking
+(Although maybe less important for Go-Mobile?) SMS tickets 
 #BfP
-An application for you're phone on top of SMS tickets significantly increases the value added. During the research and work
-this was stressed several times. Especially because at the moment there already exists an application for iPhone which does
+ Especially because at the moment there already exists an application for iPhone which does
 this quite well, [SMS Park](http://www.mobile-canguru.be/index.php). It combines SMS parking (with alot of side services)
 tickets with De Lijn SMS tickets. In general such an application eases the process big time. 
 * You don't forget numbers or what needs to be inside the message.
