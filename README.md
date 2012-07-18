@@ -116,4 +116,10 @@ Next up buying from you're computer for your phone. The SMS should always be sen
 this prevents the need of an SMS gateway of your own, the SMS is always charged to the customer's bill and you use the
 existing infrastructure off the SMS tickets.
 
+The BfC approach therefore should push a 'ticket' to the phone. The tip-skip application (which is running at that moment
+on the phone) would then receive this push 'ticket'. The SMS function would be triggered (after confirmation by the user).
+and the customer would have his ticket at hand!
+
+I found a very good and widely spread technology to provide this push functionality: [PubNub](wwww.pubnub.com).
+
 
