@@ -133,17 +133,25 @@ alternative to TCP, used when TCP is difficult or impossible (e.g. in a web brow
 Putting it all together I made a working application for the De Lijn SMS tickets where it is possible to push a ticket from your
 computer to your phone or buy it directly via your phone.
 
+Problems
+--------
+
 Future work
 -----------
+* Authentication.
+* Security.
+
 
 Restrictions
 ------------
+
+
 
 Conclusions
 -----------
 Let's jump into conclusions, keeping possibilities for Go-Mobile in mind.
 
-#General
+##General
 n application for you're phone on top of SMS tickets significantly increases the value added. During the research and work
 this was stressed several times. There are already sprouting several applications whom try to do this. Some succeed very well
 like [SMS Park](http://www.mobile-canguru.be/index.php), which combines parking and De Lijn SMS tickets. There are several 
@@ -152,12 +160,23 @@ advantages:
 * It provides an easy way to populate the ticket with the necessary data.
 * A history is available of you're payed tickets (highly valuable for tracking you're travelling expenses).
 
-#NMBS
+##NMBS
 This is a very interesting opportunity for Go-Mobile. At the moment the NMBS SMS tickets (which are to be paid for by Mastercard
 or Visa) aren't useful at all. But suppose they would change to real SMS tickets (just sending an SMS and paying with your phone
 bill).
 
-#Parking
+###BfP
+
+###BfC
+Suppose you add this functionality in a widget on a site concerning mobility (suppose [Scotty](scotty.be) or [iRail](irail.be)).
+form. You can directly offer a ticket service for the relevant service. The user's wouldn't have to print their ticket but would
+receive on their phone where the application is running and they verify their purchase.
+
+But there is more. Services could be offered. With this application you know which route the customer is going to follow. Therefore
+relevant information can be offered, adding even more value. You could add information about on which platform the customer should
+board, what delays he will have and more specific information, which the customer shouldn't search for himself anymore.
+
+##Parking
 (Although maybe less important for Go-Mobile?) SMS tickets ... TODO
 * You're location could be used to make it even more enjoyable (like checking which parking meter you are at automatically).
 * Usage of timers.
