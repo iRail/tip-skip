@@ -167,8 +167,9 @@ bill).
 
 ###BfP
 
+
 ###BfC
-Suppose you add this functionality in a widget on a site concerning mobility (suppose [Scotty](scotty.be) or [iRail](irail.be)).
+Suppose you add this functionality in a widget on a site concerning mobility (suppose [Scotty](www.scotty.be) or [iRail](www.irail.be)).
 form. You can directly offer a ticket service for the relevant service. The user's wouldn't have to print their ticket but would
 receive on their phone where the application is running and they verify their purchase.
 
@@ -176,10 +177,13 @@ But there is more. Services could be offered. With this application you know whi
 relevant information can be offered, adding even more value. You could add information about on which platform the customer should
 board, what delays he will have and more specific information, which the customer shouldn't search for himself anymore.
 
+##De Lijn
+
 ##Parking
 (Although maybe less important for Go-Mobile?) SMS tickets ... TODO
 * You're location could be used to make it even more enjoyable (like checking which parking meter you are at automatically).
 * Usage of timers.
+* 
 
 
 
