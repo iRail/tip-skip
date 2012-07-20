@@ -135,6 +135,12 @@ computer to your phone or buy it directly via your phone.
 
 Problems
 --------
+Even with this prototype I encountered some problems mainly because I was developing on Windows Phone. First off it isn't
+possible to access the SMS inbox at the moment. So it is impossible to use the real SMS verification of your ticket in the
+application.
+
+Next to this I faced some trouble saving your current tickets. Normally I use localStorage but for some obscure reason this
+didn't work on my phone.
 
 Future work
 -----------
