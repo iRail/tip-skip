@@ -133,6 +133,11 @@ alternative to TCP, used when TCP is difficult or impossible (e.g. in a web brow
 Putting it all together I made a working application for the De Lijn SMS tickets where it is possible to push a ticket from your
 computer to your phone or buy it directly via your phone.
 
+Because I do want people to see what my prototype looks like (but I can't obviously do this on the phone) I ported the application
+back to a website-ish application. The application which ran on the Windows Phone is called the receiver and is ported to a 
+[website](http://tip-skip.irail.be/receiver.html). Whereas on the other end you have the [sender](http://tip-skip.irail.be/sender.html) 
+(which is actually a normal website).
+
 Problems
 --------
 Even with this prototype I encountered some problems mainly because I was developing on Windows Phone. First off it isn't
@@ -144,14 +149,7 @@ didn't work on my phone.
 
 Future work
 -----------
-* Authentication.
-* Security.
-
-
-Restrictions
-------------
-
-
+* Authentication and security; but using PubNub it would be fairly easy as they provide authenticated and secured 1v1 connections.
 
 Conclusions
 -----------
@@ -171,25 +169,29 @@ This is a very interesting opportunity for Go-Mobile. At the moment the NMBS SMS
 or Visa) aren't useful at all. But suppose they would change to real SMS tickets (just sending an SMS and paying with your phone
 bill).
 
-###BfP
-
-
-###BfC
 Suppose you add this functionality in a widget on a site concerning mobility (suppose [Scotty](www.scotty.be) or [iRail](www.irail.be)).
 form. You can directly offer a ticket service for the relevant service. The user's wouldn't have to print their ticket but would
 receive on their phone where the application is running and they verify their purchase.
 
 But there is more. Services could be offered. With this application you know which route the customer is going to follow. Therefore
 relevant information can be offered, adding even more value. You could add information about on which platform the customer should
-board, what delays he will have and more specific information, which the customer shouldn't search for himself anymore.
+board, what delays he will have and more specific information, which the customer shouldn't search for himself anymore. The information
+is brought to the customer and this is what they want.
+
+I think a serious business model can't be worked out here.
 
 ##De Lijn
+What I've learned here is that SMS tickets can be really simple and solid. These tickets don't need unnecessary information, are fast
+and can be relied on. Due to this fact an application on top of this just simplifies the process even more although not much
+value can be added as they are already that simple.
 
 ##Parking
-(Although maybe less important for Go-Mobile?) SMS tickets ... TODO
-* You're location could be used to make it even more enjoyable (like checking which parking meter you are at automatically).
+Very interesting (Although maybe less important for Go-Mobile?) especially because [SMS Park](http://www.mobile-canguru.be/index.php) has made a full blown iOS application
+for this. I used this application and as thought, it provides some very nice features.
+* Your location could be used to make it even more enjoyable (like checking which parking meter you are at automatically).
 * Usage of timers.
-* 
+* A car tracking system.
+* License plate management.
 
 
 
