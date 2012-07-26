@@ -136,7 +136,12 @@ computer to your phone or buy it directly via your phone.
 Because I do want people to see what my prototype looks like (but I can't obviously do this on the phone) I ported the application
 back to a website-ish application. The application which ran on the Windows Phone is called the receiver and is ported to a 
 [website](http://tip-skip.irail.be/receiver.html). Whereas on the other end you have the [sender](http://tip-skip.irail.be/sender.html) 
-(which is actually a normal website).
+(which is actually a normal website or a widget).
+
+First off you can buy from the receiver (thus the phone). On the phone this will trigger the SMS application and create the necessary
+message and recipients ready to sent. Next you can use the sender (the website or widget) to push a notice which will then trigger in
+turn the SMS application. This provides a simple prototype which show how it should be possible to build an interoperable BfP and
+BfC application.
 
 Problems
 --------
@@ -150,12 +155,14 @@ didn't work on my phone.
 Future work
 -----------
 * Authentication and security; but using PubNub it would be fairly easy as they provide authenticated and secured 1v1 connections.
+* Access to the response of an SMS ticket by accessing the SMS inbox.
+* Go from prototype to an higher level of application.
 
 Conclusions
 -----------
 Let's jump into conclusions, keeping possibilities for Go-Mobile in mind.
 
-##General
+###General
 n application for you're phone on top of SMS tickets significantly increases the value added. During the research and work
 this was stressed several times. There are already sprouting several applications whom try to do this. Some succeed very well
 like [SMS Park](http://www.mobile-canguru.be/index.php), which combines parking and De Lijn SMS tickets. There are several 
@@ -164,7 +171,7 @@ advantages:
 * It provides an easy way to populate the ticket with the necessary data.
 * A history is available of you're payed tickets (highly valuable for tracking you're travelling expenses).
 
-##NMBS
+###NMBS
 This is a very interesting opportunity for Go-Mobile. At the moment the NMBS SMS tickets (which are to be paid for by Mastercard
 or Visa) aren't useful at all. But suppose they would change to real SMS tickets (just sending an SMS and paying with your phone
 bill).
@@ -180,12 +187,12 @@ is brought to the customer and this is what they want.
 
 I think a serious business model can't be worked out here.
 
-##De Lijn
+###De Lijn
 What I've learned here is that SMS tickets can be really simple and solid. These tickets don't need unnecessary information, are fast
 and can be relied on. Due to this fact an application on top of this just simplifies the process even more although not much
 value can be added as they are already that simple.
 
-##Parking
+###Parking
 Very interesting (Although maybe less important for Go-Mobile?) especially because [SMS Park](http://www.mobile-canguru.be/index.php) has made a full blown iOS application
 for this. I used this application and as thought, it provides some very nice features.
 * Your location could be used to make it even more enjoyable (like checking which parking meter you are at automatically).
