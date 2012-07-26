@@ -163,7 +163,7 @@ Conclusions
 Let's jump into conclusions, keeping possibilities for Go-Mobile in mind.
 
 ###General
-n application for you're phone on top of SMS tickets significantly increases the value added. During the research and work
+An application for you're phone on top of SMS tickets significantly increases the value added. During the research and work
 this was stressed several times. There are already sprouting several applications whom try to do this. Some succeed very well
 like [SMS Park](http://www.mobile-canguru.be/index.php), which combines parking and De Lijn SMS tickets. There are several 
 advantages:
@@ -185,7 +185,7 @@ relevant information can be offered, adding even more value. You could add infor
 board, what delays he will have and more specific information, which the customer shouldn't search for himself anymore. The information
 is brought to the customer and this is what they want.
 
-I think a serious business model can't be worked out here.
+I think a serious business model can be worked out here!
 
 ###De Lijn
 What I've learned here is that SMS tickets can be really simple and solid. These tickets don't need unnecessary information, are fast
