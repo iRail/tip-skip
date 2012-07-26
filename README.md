@@ -66,7 +66,7 @@ invoice you will receive on a monthly basis. For the moment only Proximus custom
 invoice or prepaid card. We expect Mobistar and Base to follow shortly. Until then Mobistar and Base customers can 
 register on this web site. They will then receive a monthly invoice from Mobile-for.
 
-Unfortunately in Ghent 4411 isn't active at the moment. Their used to be an SMS service '3453' but there doesn't seem to be any
+Unfortunately in Ghent 4411 isn't active at the moment. There used to be an SMS service '3453' but there doesn't seem to be any
 trace of it anymore. Further investigation here would be nice and necessary, not only for Ghent but also for other cities who
 offer their own SMS parking ticket service.
 
@@ -201,8 +201,8 @@ for this. I used this application and as thought, it provides some very nice fea
 * License plate management.
 
 ###In the end
-In the end I'm fairly convinced their is more to the SMS ticket than their is currently available. Certainly for the SMS tickets
-where extra services could be offered their could be a new approach of delivering only very specific information with these tickets.
+In the end I'm fairly convinced there is more to the SMS ticket than there is currently available. Certainly for the SMS tickets
+where extra services could be offered there could be a new approach of delivering only very specific information with these tickets.
 
 I do think 3 weeks was fairly short to provide even a proof of concept but it was enough to draw some conclusions. Also most of the
 possibilities lie with NMBS SMS tickets. Unfortunatly these aren't currently suitable for a decent application. If these would
