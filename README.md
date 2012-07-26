@@ -200,6 +200,16 @@ for this. I used this application and as thought, it provides some very nice fea
 * A car tracking system.
 * License plate management.
 
+###In the end
+In the end I'm fairly convinced their is more to the SMS ticket than their is currently available. Certainly for the SMS tickets
+where extra services could be offered their could be a new approach of delivering only very specific information with these tickets.
+
+I do think 3 weeks was fairly short to provide even a proof of concept but it was enough to draw some conclusions. Also most of the
+possibilities lie with NMBS SMS tickets. Unfortunatly these aren't currently suitable for a decent application. If these would
+a very nice opportunity would arise.
+
+For more questions on this subject please do mail me: dimitri at irail.be.
+
 
 
 
